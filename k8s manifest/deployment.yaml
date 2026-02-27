@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: '692614315837.dkr.ecr.ap-south-2.amazonaws.com/myrepo'
+          image: 'image: 692614315837.dkr.ecr.ap-south-2.amazonaws.com/myrepo:1.0.0'
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
